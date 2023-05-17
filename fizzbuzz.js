@@ -1,7 +1,6 @@
 module.exports = function() {
     //Write a program to return arrays of number from 1 - 100
     //Varaiable and empty array
-    // USe foo
 
     let array = []
     for (let i = 1; i <= 100; i++) {
