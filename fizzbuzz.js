@@ -10,7 +10,7 @@ module.exports = function() {
         } else if (i % 3 === 0) {
             array.push('fizz');
         } else if (i % 5 === 0) {
-            array.push('buzz');
+            array.push('Buzz');
         } else {
             array.push(i);
         }
