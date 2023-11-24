@@ -1,0 +1,23 @@
+function fizzBuzz() {
+    // Create an empty array to store the results
+    let array = [];
+
+    // Iterate from 1 to 100
+    for (let i = 1; i <= 100; i++) {
+        // Check if the current number is divisible by both 3 and 5
+        if (i % 3 === 0 && i % 5 === 0) {
+            array.push('FizzBuzz'); // If divisible, add 'FizzBuzz' to the array
+        } else if (i % 3 === 0) {
+            array.push('Fizz'); // If divisible by 3, add 'Fizz' to the array
+        } else if (i % 5 === 0) {
+            array.push('Buzz'); // If divisible by 5, add 'Buzz' to the array
+        } else {
+            array.push(i); // If not divisible by 3 or 5, add the number itself to the array
+        }
+    }
+
+    return array; // Return the final array
+}
+
+// Call the function and log the result to the console
+console.log(fizzBuzz());
